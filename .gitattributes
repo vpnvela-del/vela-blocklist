@@ -1,0 +1,6 @@
+# The app fetches blocklist.txt verbatim over raw.githubusercontent.com and
+# splits it on newlines. Keep it LF in the blob and in every working copy,
+# whatever the contributor's platform does.
+blocklist.txt text eol=lf
+*.py text eol=lf
+*.yml text eol=lf

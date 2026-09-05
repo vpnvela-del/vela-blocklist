@@ -1,0 +1,127 @@
+name: Refresh blocklist
+
+on:
+  schedule:
+    # 04:17 UTC daily. Off the hour on purpose -- abuse.ch asks that the dumps
+    # not be fetched more often than every 5 minutes, and the top of the hour
+    # is where every other scheduled job on GitHub piles up.
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-blocklist
+  cancel-in-progress: false
+
+env:
+  # Safety valve. The verified seed is 4,911 domains; anything under this is a
+  # broken fetch, not a quiet day at abuse.ch.
+  MIN_DOMAINS: '1000'
+  # abuse.ch URLhaus hostfile: domains only, already filtered against the
+  # Tranco Top 1M, which is why it is preferred over the raw URL feed.
+  HOSTFILE_URL: 'https://urlhaus.abuse.ch/downloads/hostfile/'
+  # Public fallback: the plain-text URL list the 4,911-domain seed was built
+  # from. Served without an Auth-Key.
+  PUBLIC_URL: 'https://urlhaus.abuse.ch/downloads/text/'
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the URLhaus feed
+        id: fetch
+        env:
+          ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}
+        run: |
+          set -euo pipefail
+          source_label=''
+
+          try_hostfile() {
+            echo "Fetching the authenticated hostfile: $HOSTFILE_URL"
+            # The key goes in the Auth-Key request header, per abuse.ch's API
+            # docs. It is never echoed and never lands in a URL.
+            code=$(curl -sS -L --max-time 120 --retry 3 --retry-delay 5 \
+                     -H "Auth-Key: ${ABUSECH_AUTH_KEY}" \
+                     -o feed.txt -w '%{http_code}' "$HOSTFILE_URL") || return 1
+            echo "HTTP $code, $(wc -c < feed.txt) bytes"
+            [ "$code" = "200" ] || return 1
+            # Dry run: does this body actually parse into a usable list? An
+            # unauthenticated hostfile request still returns HTTP 200, but with
+            # only a few hundred domains, so the count is the real test.
+            python3 tools/build_blocklist.py \
+              --input feed.txt --check-only --min-domains "$MIN_DOMAINS"
+          }
+
+          if [ -n "${ABUSECH_AUTH_KEY:-}" ]; then
+            if try_hostfile; then
+              source_label='abuse.ch URLhaus (hostfile, Tranco-filtered, malware only)'
+            else
+              echo "::warning::Authenticated hostfile fetch did not yield a usable list; falling back to the public plain-text URL feed."
+            fi
+          else
+            echo "::warning::ABUSECH_AUTH_KEY is not set; falling back to the public plain-text URL feed."
+          fi
+
+          if [ -z "$source_label" ]; then
+            echo "Fetching the public feed: $PUBLIC_URL"
+            code=$(curl -sS -L --max-time 180 --retry 3 --retry-delay 5 \
+                     -o feed.txt -w '%{http_code}' "$PUBLIC_URL")
+            echo "HTTP $code, $(wc -c < feed.txt) bytes"
+            if [ "$code" != "200" ]; then
+              echo "::error::Public feed returned HTTP $code"
+              exit 1
+            fi
+            source_label='abuse.ch URLhaus (plain-text URL feed, malware only)'
+          fi
+
+          echo "source_label=$source_label" >> "$GITHUB_OUTPUT"
+          echo "Source: $source_label"
+
+      - name: Regenerate blocklist.txt
+        run: |
+          set -euo pipefail
+          # Hard safety valve: build_blocklist.py exits non-zero (failing the
+          # run) on an HTML/error body or on fewer than MIN_DOMAINS domains, and
+          # writes nothing in that case -- the good list stays untouched.
+          python3 tools/build_blocklist.py \
+            --input feed.txt \
+            --output blocklist.txt \
+            --min-domains "$MIN_DOMAINS" \
+            --source-label '${{ steps.fetch.outputs.source_label }}'
+
+      - name: Sanity-check the result
+        run: |
+          set -euo pipefail
+          head -1 blocklist.txt
+          count=$(grep -cv '^#' blocklist.txt)
+          echo "domains in file: $count"
+          [ "$count" -ge "$MIN_DOMAINS" ]
+          # The NEVER_BLOCK guard must have held.
+          for d in google.com github.com dropbox.com drive.google.com sites.google.com; do
+            if grep -qx "$d" blocklist.txt; then
+              echo "::error::$d is on the list -- the NEVER_BLOCK guard failed"
+              exit 1
+            fi
+          done
+          echo "NEVER_BLOCK guard: OK"
+
+      - name: Commit if materially changed
+        run: |
+          set -euo pipefail
+          # build_blocklist.py leaves the file untouched when the domain set is
+          # identical, so an unchanged domain set produces no diff at all -- the
+          # header date is not rewritten just to churn a commit.
+          if git diff --quiet -- blocklist.txt; then
+            echo "No material change; nothing to commit."
+            exit 0
+          fi
+          git config user.name  'vela-blocklist-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add blocklist.txt
+          git commit -m "Refresh blocklist: $(grep -cv '^#' blocklist.txt) domains" \
+                     -m "$(head -1 blocklist.txt)"
+          git push
