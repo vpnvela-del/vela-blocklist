@@ -12,25 +12,31 @@ jobs:
           K: ${{ secrets.ABUSECH_AUTH_KEY }}
         run: |
           set -uo pipefail
-          probe() { # $1 = label, rest = curl args
+          probe() {
             local label="$1"; shift
             local code
             code=$(curl -sS -L --max-time 60 -o /tmp/b -w '%{http_code}' "$@" || echo ERR)
-            printf '%-46s http=%-5s bytes=%-9s %s\n' "$label" "$code" \
+            printf '%-40s http=%-5s bytes=%-9s %s\n' "$label" "$code" \
               "$(wc -c < /tmp/b 2>/dev/null || echo 0)" \
-              "$(head -c 120 /tmp/b | tr -d '\n' | tr -d '\r')"
+              "$(head -c 100 /tmp/b | tr -d '\n' | tr -d '\r')"
           }
 
-          echo "--- legacy downloads with Auth-Key header ---"
-          probe "downloads/hostfile/ (hdr)" -H "Auth-Key: $K" https://urlhaus.abuse.ch/downloads/hostfile/
-          probe "downloads/hostfile/ (no hdr)" https://urlhaus.abuse.ch/downloads/hostfile/
-          probe "downloads/hostfile/ (Auth-Key qs)" "https://urlhaus.abuse.ch/downloads/hostfile/?auth_key=$K"
-
-          echo "--- v2 files/exports/<KEY>/<file> ---"
-          for f in hostfile.txt hostfile hostfile.zip text.txt text_online.txt \
-                   text_recent.txt recent.csv online.csv full.csv rpz.txt; do
-            probe "v2/files/exports/*/$f" "https://urlhaus-api.abuse.ch/v2/files/exports/$K/$f"
+          echo "--- v2 files/exports/<KEY>/<file> name discovery ---"
+          for f in urlhaus.txt urls.txt plain.txt online.txt recent.txt full.txt \
+                   urlhaus.csv csv.txt csv.zip full.zip payloads.csv \
+                   hostfile_online.txt rpz_online.txt online.json recent.json \
+                   full.json urlhaus.json links.txt text.csv; do
+            probe "exports/*/$f" "https://urlhaus-api.abuse.ch/v2/files/exports/$K/$f"
           done
 
-          echo "--- datalake ---"
-          probe "datalake daily/ (hdr)" -H "Auth-Key: $K" https://datalake.abuse.ch/urlhaus/daily/
+          echo "--- how big is the authenticated hostfile really ---"
+          curl -sS -L --max-time 60 -o /tmp/h \
+            "https://urlhaus-api.abuse.ch/v2/files/exports/$K/hostfile.txt"
+          echo "hostfile.txt non-comment lines: $(grep -cv '^#' /tmp/h)"
+          head -8 /tmp/h
+
+          echo "--- online.csv domain yield ---"
+          curl -sS -L --max-time 120 -o /tmp/o \
+            "https://urlhaus-api.abuse.ch/v2/files/exports/$K/online.csv"
+          echo "online.csv lines: $(wc -l < /tmp/o)"
+          head -10 /tmp/o
