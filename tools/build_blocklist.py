@@ -129,7 +129,8 @@ def existing_domains(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--input', required=True, help='raw feed file')
+    ap.add_argument('--input', required=True, action='append',
+                    help='raw feed file; repeatable, results are unioned')
     ap.add_argument('--output', help='blocklist.txt to (re)write')
     ap.add_argument('--source-label', default='abuse.ch URLhaus')
     ap.add_argument('--min-domains', type=int, default=1000)
@@ -138,20 +139,30 @@ def main():
                     help='validate the feed and report the count; write nothing')
     args = ap.parse_args()
 
-    text = read_feed(args.input)
+    merged = set()
+    guarded = set()
+    for path in args.input:
+        text = read_feed(path)
 
-    # --- Safety valve, part 1: an HTML/error body is never a feed. ----------
-    if looks_like_html(text):
-        print('FAIL: feed body looks like HTML, not a domain list', file=sys.stderr)
-        print(text[:300], file=sys.stderr)
-        return 2
+        # --- Safety valve, part 1: an HTML/error body is never a feed. ------
+        if looks_like_html(text):
+            print('FAIL: %s looks like HTML, not a domain list' % path,
+                  file=sys.stderr)
+            print(text[:300], file=sys.stderr)
+            return 2
 
-    out, stats, guarded = extract(text)
+        found, stats, hits = extract(text)
+        merged.update(found)
+        guarded.update(hits)
+        print('--- %s' % path)
+        for k, v in stats.items():
+            print('%-9s %d' % (k, v))
+        print('domains   %d' % len(found))
 
-    for k, v in stats.items():
-        print('%-9s %d' % (k, v))
+    out = sorted(merged)
+    print('--- merged')
     print('domains   %d' % len(out))
-    print('guarded_hits: %s' % (guarded or 'none'))
+    print('guarded_hits: %s' % (sorted(guarded) or 'none'))
 
     # --- Safety valve, part 2: never overwrite a good list with a thin one. -
     if len(out) < args.min_domains:
