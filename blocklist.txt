@@ -1,4 +1,4 @@
-# source abuse.ch URLhaus (plain-text URL feed, malware only) | date 2026-09-05 | count 4840
+# source abuse.ch URLhaus (plain-text URL feed + authenticated hostfile, malware only) | date 2026-09-05 | count 4840
 0022a601.pphost.net
 00pq7d1j.1xboropartners.com
 015bj63k.parspoker90.com
@@ -1186,6 +1186,7 @@ dkfcpnk.ninjafruitcubes.bet
 dkkmrjmb.signalfrontier.top
 dkrxwehc.testpaye.xyz
 dl.1003b.56a.com
+dl.2345.com
 dl.360safe.com
 dl.dropboxusercontent.com
 dl.dzqzd.com
@@ -1427,7 +1428,6 @@ esnjo.tractor11.com
 essizs.com
 estirarsobrelivro.com
 et3y84jg.testpaye.xyz
-et8095ov.parspoker.casino
 etaczb1.jetbetapk.online
 etaru.oasis-active.com
 etchspinhas.xyz
