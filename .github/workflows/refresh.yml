@@ -132,4 +132,23 @@ jobs:
           git add blocklist.txt
           git commit -m "Refresh blocklist: $(grep -cv '^#' blocklist.txt) domains" \
                      -m "$(head -1 blocklist.txt)"
-          git push
+          # Retry the push. Run #11 (2026-09-13) built a good list but lost it to
+          # `! [remote rejected] main -> main (failure)` -- a GitHub-side error
+          # during an incident (authorization-endpoint errors), not a repo rule
+          # or permission problem. Rebasing first also covers a commit landing
+          # on main while the job ran. The list is only ever published here, so
+          # a failed attempt leaves the previous good blocklist.txt live.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            [ "$attempt" -eq 5 ] && break
+            delay=$((30 * 2 ** (attempt - 1)))
+            echo "::warning::push attempt $attempt failed; retrying in ${delay}s"
+            sleep "$delay"
+            if ! git pull --rebase origin main; then
+              git rebase --abort 2>/dev/null || true
+            fi
+          done
+          echo "::error::git push failed after 5 attempts"
+          exit 1
