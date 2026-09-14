@@ -1,4 +1,4 @@
-# source abuse.ch URLhaus (plain-text URL feed + authenticated hostfile, malware only) | date 2026-09-13 | count 4024
+# source abuse.ch URLhaus (plain-text URL feed + authenticated hostfile, malware only) | date 2026-09-14 | count 3920
 00pq7d1j.1xboropartners.com
 01ejjpa2.behtarin-site-shartbandi.com
 01pr.com.tr
@@ -14,7 +14,6 @@
 0akw8w.com
 0dahrppq.taktikbet.bio
 0following.com
-0hz5u1mn.moarefeslami.xyz
 0knbl1ve.hugugmadanikatouzian.xyz
 0mx8cbge.fa1xbet.vip
 0odlgi4q.motuntakhasosi.store
@@ -24,7 +23,6 @@
 0qam1x6q.alobet.pro
 0rder-ver1f2345.com
 0rlxki7g.bordbett10.com
-0snofqmc.megaparikade.com
 0x1x2x3.top
 0z4y5ci2.1xboropartners.com
 11-4xt.pages.dev
@@ -35,7 +33,6 @@
 132.red-81-42-249.staticip.rima-tde.net
 13d3c8zt.kick1bet.com
 13i466gp.shart303.com
-14-0-204-188.static.pccw-hkt.com
 150.co.il
 1717.1000uc.com
 172-104-49-49.ip.linodeusercontent.com
@@ -55,9 +52,6 @@
 1di0v3ei.one1xbetfa.com
 1e2sdyr4.honardartarikh.xyz
 1eriimge.consultingsolutionsjp.com
-1ghy1rc2.questionstest.xyz
-1h.vuregyy1.ru
-1h.xeteloi4.ru
 1iubqhod.megapariwin.casino
 1j4lxwuu.1xboropartners.com
 1nto2x4n.bahigo90bet.com
@@ -100,7 +94,6 @@
 2wr0b5x0.jetbetkade.com
 2zm9lhlg.groeschelcompany.com
 3007.filemail.com
-3008.filemail.com
 30zu55sj.radioshartbandi.bet
 31-56-209-153.cprapid.com
 317.wtf
@@ -117,7 +110,6 @@
 3fbkahzk.coinsgame.pro
 3gk1o3xg.betoshart.live
 3hjfke61.usoleamoozesh.xyz
-3kh6tu2u.shimiumumi.xyz
 3mjtqxj3.1xsignupbet.com
 3qian795.bet359.bet
 3snpseyu.enfejar-site.bet
@@ -141,7 +133,6 @@
 4l988hfr.1fabet.live
 4lbsgx9v.powershart.com
 4nd2h8ef.bio90.football
-4nhtw4lz.testranandegi.com
 4o63jpbm.ekhtelalat.xyz
 4olnuxxz.blackjackonlineplay83.com
 4q74zsh8.raftarsazmani.xyz
@@ -159,7 +150,6 @@
 58shz66o.tahlilsazeha.xyz
 59k3ql4x.akhlagvaahkam.xyz
 5dov6pg7.jadoou.yachts
-5e568txr.hugugmadani6.xyz
 5hgxfy2r.pishbinibet.bet
 5ipju606.venus90bet.com
 5jsdebh3.backgammon.download
@@ -201,7 +191,6 @@
 6shg02c5.onlinecasinorouletteblackjack.com
 6w8npdwb.angizeshfarahani.store
 6wplx51t.azmoonhayeravani.shop
-6x7obrlx.hugugtatbigi.xyz
 6xbjz1e7.1xfa.bio
 6xelt3vl.shartplus.com
 6ytetbzh.quickandcleanfetish.com
@@ -210,6 +199,7 @@
 74ock8ke.mahbetiran.com
 75rw2mk7.1xvip.xyz
 77h5jddd.yek1.bet
+78-20-115-5.access.telenet.be
 7ay17187.vip1xbet.net
 7c7ax36p.bahigo90bet.com
 7cj04th6.shartland.com
@@ -228,7 +218,6 @@
 7vs3nqp7.vip1x.bet
 7wzfqmf9.behtarin-site-shartbandi.com
 81ro1qyb.radioshartbandi.bet
-82a3dcwt.sazehayefooladi.xyz
 85xhbv2q.shartcart.xyz
 86uweryp.zarib.bet
 87130921-60-20220830152356.webstarterz.com
@@ -300,11 +289,8 @@ aawzmuz.1xvip.live
 ab950zja.testpaye.xyz
 abandoned-asylum-expedition.garden
 abilityindisabilityindia.org
-abmkzgbs.sakhtemandade.shop
-abnbc.livefootba11.com
 abonent-app.ru
 aboulokman.howto.rocks
-absolutecaninepa.com
 absoluteinvestimentos.com.br
 absshop-ping.xyz
 acc.jiangsujiaxue.com
@@ -314,6 +300,7 @@ ach-sa.com
 acmgrupo.com
 acms.saleseos.com
 acnuzqcgq.daddybetiran.live
+acrobat.proposal.name.ng
 acslkqpil.easternartmuseum.com
 acthktpb.betropol.bet
 acthwqwn.behtarin-site-shartbandi.com
@@ -346,12 +333,10 @@ agcestksa.com
 agilebee-federate-growth-net.garden
 agkzvfg.1bet1yek.bet
 agnbpfw.arbetwinner.com
-agrovelca.com
 ah8vpm3o.tafsirnasiri.xyz
 ahad-cn.com
 ahkx.jadoou.lol
 ahxpqhqnc.nextbahis.coupons
-aiaufdwh.masirpayambari.xyz
 aidlifempowerment.com
 aipmmwm.bet1forward.com
 airtickts.com
@@ -360,7 +345,6 @@ ajdixpjp.1xforward.xyz
 ajkcsyzc.jadoou.online
 ajp3btj8.nextbahis.poker
 ajzzqcazg.nextbahis.one
-akarstresser.pro
 akb.cat
 akpamgbo.gamer.gd
 akvy.20sport.ir
@@ -373,7 +357,6 @@ alkh.jbgroup21.com
 alkhateebholding.com
 allendaltonproduction.com
 allendostmen.com
-alpanel.screenconnect.com
 alphalkenya.com
 alphapicaficagency.com
 alphasaling.site
@@ -390,7 +373,6 @@ amzo-s.s3.ap-southeast-1.amazonaws.com
 anakort32ew.site
 analytical-traffic-audit-record-file.wiki
 and-last-lock.xyz
-andrefelipedonascime1778799406970.2241107.meusitehostgator.com.br
 andrefelipedonascime1781099063284.0791718.meusitehostgator.com.br
 andrewtreks.com
 anglingforimages.com
@@ -410,7 +392,6 @@ app.faster-cdn-hk.click
 app.static-file.lol
 apt-update.com
 aqjyrpm.1xforward.org
-arbitrary-chocolate-tiglon.myfilebase.com
 arcade.cleverpondky.com
 arcanemods.top
 architekten-schreiner.de
@@ -434,7 +415,6 @@ ascaf0yi.rollexbet.com
 asdsocial.pt
 asegurar2026.duckdns.org
 ashahaarmans.nl
-asiaengrs.com
 aspenriver6.com
 asset.tasisathosseini.shop
 astenterprises.com.pk
@@ -444,7 +424,6 @@ atibr.gamehazarat.bet
 atkcgnew.evgeni7e.beget.tech
 atom.freehosting.dev
 atqfb.calirayalake.com
-atsvv.bankefiile.com
 attach.66rpg.com
 attach.mail.daum.net
 attention-check.online
@@ -507,10 +486,7 @@ baomma.kmmiiaaa.com
 baoxissde.one
 bapak178.org
 barlucianocassino.com
-basefile.click
 basegrid.cfd
-basic-blue-shrew.myfilebase.com
-baskor.mypi.co
 bathgram-rare.xyz
 bauble.cleverpondky.com
 baxubfe4.1xborobetyek.bet
@@ -522,6 +498,7 @@ bcmej6hr.goodlifelakerentals.com
 bcouiutk.bordvipbet.com
 bcypppaq.asynchronous-growth-platform.garden
 beacon.ltdglobal.co.uk
+beak.in
 bebra-dev.com
 bebra-dev.pro
 beenfatenext.xyz
@@ -538,10 +515,8 @@ bezwhhi.ac90bet.net
 bf4nlm15.1xboropartners.com
 bfhxci6n.dancebet.net
 bfpu.rayeganmarket.com
-bgmotors.ro
 bgtnaqoc.fileboroo.com
 bguhecd.beshnoinja.ir
-bgyxg.differentialmamuli.store
 bgzdrdniv.venus90bet.com
 bhcivpxh.derbi.football
 bhmsnwx.sargarminovin.ir
@@ -550,11 +525,9 @@ bhvj.betwanaa.com
 biirwl32.patxisdublin.com
 biketype-not.xyz
 biltonuglimited2.screenconnect.com
-bin.workcentral.shop
 bind-mice-glow.xyz
 biologus.shop
 bip.priestsw.com
-bitbucket.org
 bito.com.pk
 bitter-handsome-truck.digivmm.katapult.cloud
 bizec8bu.zaribbala.bet
@@ -599,7 +572,6 @@ botanicalprocessingengine.garden
 botanicalresourcecontroller.garden
 botnet.botnet.xd.67.flightleaks.xyz
 bp8ahtdg.blackjackonlineplay83.com
-bpirhh68.ravanshenasiganji.xyz
 bpyos3va.blackjack-x.com
 bqmrthe.bankefiile.com
 bqtnx.danestanihavarzeshi.com
@@ -627,7 +599,6 @@ brsppaxh.psgnewsiran.com
 bs-deliver-e817.61d8f0e6ac62c139abd08ba5.workers.dev
 bserail.com
 btlbbyxf.bet90forward.win
-btskl.downloadquran.xyz
 buaoqtgen.adsbln3.xyz
 bucketforada.s3.ap-south-1.amazonaws.com
 bujybzpn.site-shartbandi-takhtenard.com
@@ -644,7 +615,6 @@ bwvastni.bet1xyek.bet
 bwwxd.polarstartire.com
 bxdc6z4b.betmegapari.org
 bxto.site-shartbandi-variz-kam.com
-bxzyp.daneshkhanevade.xyz
 byagqv8a.fileboroo.com
 bycl.betpublic.casino
 byqxztkz.bethazarat.app
@@ -676,7 +646,6 @@ cacbvgql.jadoou.skin
 cachmkcqj.venus90bet.com
 caewscad.fileboroo.com
 cambodiatouristservice.com
-canigrup.top
 canss.mountoliveccc.com
 canta-cn.com
 captainx-download.captainleontian.workers.dev
@@ -721,7 +690,6 @@ ceayo90m.jadoou.xyz
 cehamilton.com
 ceitnaao.zamineravanshenasi.xyz
 celebratingseniors.net
-cembusconfort.ro
 centrodeinfusaocuritiba.com.br
 centrodolce.screenconnect.com
 ceohdvj.bonos.promo
@@ -756,7 +724,6 @@ chhtni23.dancebet.app
 chickencutlethacks.fit
 chiptune.com
 chiroartist.com
-chjwx.danestanihavarzeshi.com
 cho4uj96.bet303iran.org
 christophercheung.com
 chrome-desktop.net
@@ -771,9 +738,7 @@ cim-kolea.com
 citrusmangos.ct.ws
 cjbbdtba.maharatmodiran.xyz
 ck0ny34p.1xprobet.app
-ckdydch.shansbartar.bet
 ckugvmkpg.hazarat.now
-ckvcsacd.mechanicsayalat.xyz
 cl.ssouy.com
 cla.stingold.com
 class1004.dothome.co.kr
@@ -799,7 +764,6 @@ clysselw.betkaka.bet
 cn.unionlever.com
 cnc.strikec2.wtf
 cniqfzhe.riskybet.casino
-cnuwz.bankefile.com
 cnxst.jardins-do-mar.com
 coalfact-tear.xyz
 coconutoficial.com.br
@@ -815,15 +779,14 @@ communication-hub.vg
 compuserviceonline.com.br
 comumvidros.com.br
 connectmagazineads.com
-consways.com
 containerized-plant-system.garden
 continentalgroup.net.in
 controliumbt.com
 conu6dbe.hugugmadanikatouzian.xyz
 coolairesgroup.com
+copiose.org
 coralasargetia.ro
 coraline.buzz
-coraline.work
 coralwebqe.help
 correction-pancake-seissy.courses
 cosmeticapampa.com.ar
@@ -831,7 +794,6 @@ counterscale.jean-r-mi-larcelet-prost.workers.dev
 cozysigh-nick.xyz
 cp45rrnx.shartplus.com
 cpc188.day
-cpclyyro.hugugtejarat4.xyz
 cppqqgxg.betlivo90.bet
 cpvt.bet120.games
 cpysndcd.prozhecart.com
@@ -866,8 +828,6 @@ cstee.diamonddumpsterrental.net
 cswnawh.accbartar.com
 cta.edu.pe
 cu.srijanajha.com.np
-cucnczaq.testdrivepaye3.com
-cunozylb.sanjeshvaandazegiri.shop
 cunts.colg1.org
 curename-gust.xyz
 curl-shell-teal.vercel.app
@@ -880,7 +840,6 @@ cvf.shart120x.com
 cvjd.fileboroo.com
 cvyfg.kopicoffeeco.com
 cwkw.site-shartbandi-bedun-filter.com
-cx2b8w38.anodaz.vip
 cxs9e097.vip1xbet.org
 cxsbf6om.betmajickade.com
 cxxz.co.za
@@ -899,7 +858,6 @@ d.wanyouxi7.com
 d2314eac.solaraweb-alj.pages.dev
 d30ld0sk.313betapk.com
 d3cciiowg5l3jx.cloudfront.net
-d4.tfdl.net
 d52cv625.ahkam.xyz
 d7.tfdl.net
 d90s0lckjm3qn44hcum01m8hh5cnosj6q.oast.fun
@@ -971,7 +929,6 @@ day023.com
 dazayse.hi-lo.bet
 dbeasxyp.derbi.football
 dbfzqcjz.site-enfejar-hazarat.com
-dbhmpap.shansline.com
 dbomd.famscargo.com
 dcaxdwoo.barcelona11.com
 dcrun.co.uk
@@ -1026,7 +983,6 @@ divvanews.com
 djaczx9h.btyek.online
 djqiyxyx.calirayalake.com
 dkkmrjmb.signalfrontier.top
-dkrxwehc.testpaye.xyz
 dl.1003b.56a.com
 dl.2345.com
 dl.360safe.com
@@ -1053,7 +1009,6 @@ doc.e-statements.app
 doc.eagle-web-concept.fr
 docs.google.com
 docsfan-flora-ability-system.garden
-docsonlineshare.shorepowersolution.net
 documentz.vercel.app
 docuslutmentadoonline.top
 docuuumennnntonline.top
@@ -1095,8 +1050,11 @@ download.ubua.online
 download1532.mediafire.com
 download2.huduntech.com
 download2281.mediafire.com
+download2292.mediafire.com
+download2296.mediafire.com
 download2300.mediafire.com
 download2349.mediafire.com
+download2360.mediafire.com
 downloadpirate.com
 downloads.glazedclients.com
 dows.sabad724.bio
@@ -1139,7 +1097,6 @@ durakutihs.com
 dusk-omit-epic.xyz
 dutalogambone.com
 dv4wbkrb.shart.casino
-dvbkmkq.rocketbet.pro
 dvc734k1.hazaratbet.game
 dvjmeze.yan303.com
 dvunixht.boroo.bet
@@ -1215,7 +1172,6 @@ ends-fork-ores.xyz
 ends-pare-stow.xyz
 enter-pverif-code.info
 envs.sh
-eofvjfbp.karafarini.shop
 eogwp3fe.site-shartbandi-pasor.online
 eoqwkeowqkeowq.duckdns.org
 eosgdskc.btyek.site
@@ -1239,7 +1195,6 @@ es2utu9l.samsann.com
 esim.riverpoker.xyz
 esjvtzn6.aloo.bet
 essizs.com
-et3y84jg.testpaye.xyz
 etaczb1.jetbetapk.online
 etaru.oasis-active.com
 etchspinhas.xyz
@@ -1265,6 +1220,7 @@ ewyjl357.flashhomebuyerskc.com
 ex5nibpq.vip1xbet.net
 examclaparmy.xyz
 excited-wagner-demonstrates-showing.trycloudflare.com
+executorhub.space
 exlt.behtarin-site-shartbandi.com
 expert-trading-academy.courses
 export.kesug.com
@@ -1272,7 +1228,6 @@ exptersed.com
 exwrvqwl.bet1yek1.bet
 eykrqioydzqaehcektgd.supabase.co
 eyztestn.cloudns.be
-ez92gghl.ravanshenasinovin.xyz
 eznvrdxc.footbalpersian.ir
 ezpz.link
 ezqhmvl.1bonus.bet
@@ -1298,10 +1253,8 @@ fazv.jadoobet.pro
 fb6390d5.infinityindians.pages.dev
 fbbzh.mango-sushi.com
 fbkhheg.bahisforward.com
-fbvxbuzt.questionsmotor.xyz
 fby6y3nd.illuigiitaliancuisine.com
 fcmznlck.hazaratbet.games
-fcxkiekt.tasisathosseini.shop
 fd.v2downf.shop
 fdg.jetbet1.xyz
 fdmyrhjq.jadoobet.vip
@@ -1336,7 +1289,6 @@ figural.pro
 filament-zap.vercel.app
 file.blackint3.com
 file.tugou.com.co
-file.uhsea.com
 filecon.sbs
 filedn.com
 fileget.plumbco.co.nz
@@ -1346,7 +1298,6 @@ files-storage.su
 files.catbox.moe
 files.constantcontact.com
 files.pythonhosted.org
-files01.click
 filesco.lovestoblog.com
 fileza.xyz
 filezox.xyz
@@ -1354,7 +1305,7 @@ filmchill.net
 fin-code.lol
 final-aura.top
 fine-work-team.com
-fine.microtr.life
+fingerprint-veri.info
 firebasestorage.googleapis.com
 first-security-verden.de
 firstratezim.com
@@ -1405,7 +1356,6 @@ foxo8ujn.prozhe.net
 fphhkiyz.betforward.download
 fpk81nyo.thevallartasrestaurants.com
 fpqatzfu.btyek.autos
-fqcwxddh.tractor11.com
 fqgadjsy.hugugtejarat4.xyz
 fqsmqhyz.mosbatsms.ir
 fqul.betkhanee.com
@@ -1416,9 +1366,7 @@ freeknot-norm.xyz
 freeluck.free.je
 frfjuzh.btyek.cloud
 frhphph.1xsomalia.com
-friendsofsclarc.org
 fromthetrenchesworldreport.com
-froqlquf.hugugmadanikatouzian.xyz
 frost-marketplace.christmas
 frostyislebe.pro
 frptny6s.angizeshfarahani.store
@@ -1452,7 +1400,6 @@ g6gib60b.raftarsazmani.xyz
 g9epkl53.site-asli-bedon-filter-1xbet.com
 g9lo26em.shartland.com
 gaeilmx.prozhe.pro
-gafaiyfx.mechanickhodakarami.shop
 gai1ehyu.jetboro.fun
 gaiadeqi.com
 gain-daze-kept.xyz
@@ -1485,7 +1432,22 @@ geoxsecurity.ro
 gerenland.click
 gestionycobranzas.com
 gestroom.it
+get.acitvated.win
+get.acivated.win
+get.acrivated.win
+get.actiated.win
+get.activaed.win
+get.activatd.win
+get.activatedd.win
+get.activates.win
+get.activtaed.win
+get.activted.win
 get.acttivated.win
+get.actvated.win
+get.ativated.win
+get.cativated.win
+get.ctivated.win
+get.sctivated.win
 getrichcurl.xyz
 getsolara.live
 gexbskxk.beshnoinja.ir
@@ -1533,7 +1495,6 @@ gobfmmh.casino888.promo
 gofq.phtaxiservices.com
 gogolfonline.com
 goldland8.com
-golkqcqa.psgnewsiran.com
 golvteametvarberg.se
 goododeqvip.com
 google-meet-verification.icu
@@ -1571,7 +1532,6 @@ gwcs.bolesfarms.com
 gwix.bethazarat.app
 gxcgc.jobsindeep.com
 gygor.sultankito.com
-gyrtdqr.shartbandikade.online
 gytm.onjabet1.com
 gzipfktz.mabanishimi.xyz
 gzljyxqt.jam-jahani.com
@@ -1629,13 +1589,10 @@ hgdiucl.iranwp.ai
 hgf.betfootbal1.com
 hhbs.hhu.edu.cn
 hi4ztw3j.vip1xbet.org
-hibwmmbn.shartbandi.games
-hikmah69.net
 hindustanagency.com
 hindustancargologistic.com
 hip-hop-comms.com
 hire-just-deep.xyz
-hispergen7.vercel.app
 hitechbars.com
 hitman-pro.ru
 hitstation.nl
@@ -1655,7 +1612,6 @@ hnjgdl.geps.glodon.com
 hnzi.behtarin-site-shartbandi.com
 hol.villgrow.life
 holdpogohaul.xyz
-holl.microtr.life
 holographic-projection-grid.garden
 hoop-chad-gust.xyz
 hoopramplawn.xyz
@@ -1700,7 +1656,6 @@ hwykplqn.xyz
 hxea.psikologer.com
 hxelbvz.moshavereravan.shop
 hxfvuhay.mechanicsayalat.xyz
-hxhqsvdq.mabanishimi.xyz
 hxqt.faux-paws.com
 hybnjif.1xpin.pro
 hydraulic-actuator-valve.garden
@@ -1721,7 +1676,6 @@ i.ibb.co
 i0bep9cj.medallionfoodsinctempura.com
 i0gxyl9q.betaffiliate.marketing
 i0wrocb4.bet90forward.win
-i2zev0hr.hesabdarieskandari.xyz
 i365pptc.lion1bet.com
 i54qzo8r.btyek.xyz
 i5sofk6r.xbetone.com
@@ -1748,7 +1702,6 @@ idb05olx.testdrivepaye3.com
 idea-nickdoor.xyz
 idverification-code.beer
 idylliccreations.net
-ieg4j0ii.ravansalamat.shop
 iemb.hansikaenterprises.com
 iemjjbmd.prozhe.net
 ifdj62v9.thevallartasrestaurants.com
@@ -1766,7 +1719,6 @@ igra123.com
 igsx.closedfistllc.com
 ihmmkvkaiwnilneauhfn.supabase.co
 ihnx.footbalpersian.ir
-ihypqyrn.sadreislam.xyz
 iixryzos.1xyekbet.bet
 ijexgroup.com.br
 ijm1e9p4.chrisbrownstlouis.com
@@ -1848,7 +1800,6 @@ jc5eb1c5.radioshartbandi.chat
 jcttadgn.betlivo90.bet
 jds4p0yc.betbacklink.com
 jeekd.senorgyros.com
-jehezikh.prozhecart.com
 jenkinsmoving.com
 jenniferloeffler.com
 jerkloss-flux.xyz
@@ -1860,7 +1811,6 @@ jfxdrqqn.maharatmodiran.xyz
 jgtl.novin-gps.ir
 jgyqxldn.leaguejazire.com
 jhq8hqlo.1xforward.vip
-jibkc2ky.geotechnictahuni.store
 jidm.jadoobet.pro
 jifyi.gamehazarat.com
 jii17zh7.yekbetyek.com
@@ -1957,7 +1907,6 @@ kgbhost.digital
 kgfkfhqgg.gem90bet.com
 kgptwmgqf.taktikkbet.com
 khavar.com
-khfujqd.shartbandifootballkade.online
 khlko.gorgbet.net
 khob.formonstore.com
 kiabillc.online
@@ -1971,7 +1920,6 @@ kjftest.beshnoinja.ir
 kjjt.pages.dev
 kkid.hightidesuffolk.com
 klca.hieliao-app.com
-klpiy.mabanimashin.site
 klqxthu.enfejar.poker
 klsv.betturkey.bet
 kmfnh0zd.behtarin-site-shartbandi-football.com
@@ -2003,7 +1951,6 @@ kryptoniteclient.xyz
 ksuqx.cnbgladespring.com
 ktkxw.shimiaodaoflushing.com
 kuilfgfd.cc
-kulnpioc.mabanishimi.xyz
 kuqetgql.shartebartar.game
 kwb3h55h.thevallartasrestaurants.com
 kwgn9wkj.cupprimosouth.com
@@ -2024,10 +1971,8 @@ kzqlbit.sargarminovin.ir
 kzsf.concretewestgj.com
 kztxtnj.pastiadajalan.pro
 l2ekym1s.megaparivip.vip
-l3fcolra.fubet24.net
 l3q1ng7a.azmoondadrasi.xyz
 l6k9xubq.oxidbetkade.online
-l6sa1ldu.ravanshenasisaeedi.xyz
 l7r6eyvg.biagameskade.com
 labdjang.asia
 lace-wise-crop.xyz
@@ -2065,7 +2010,6 @@ lenotecadiarqua.it
 leo-deluca.gamer.gd
 let-dyed-crow.xyz
 letsgobok.com
-letstalkhomes.ca
 lezysoptimizations.lovable.app
 lfk25ohk.win1bahis.com
 lfumk.winston.bet
@@ -2091,7 +2035,6 @@ live-fled-slam.xyz
 live-helpinfo.xyz
 lively-fog-af49.pablosoftwareplus.workers.dev
 liwxdd48.romabetkade.com
-ljhxazhv.mechanickhodakarami.shop
 ljkfok0p.vip1xbet.net
 ljqk.bahigo.casino
 lkkcicvs.tasisathosseini.shop
@@ -2103,7 +2046,6 @@ llmpgrax.mechanickhodakarami.shop
 llttu.hurtigegevinster.com
 lmhk.bahigo.casino
 lmkxs.imagederm.com
-lmlnqaju.karbordriyaziyat.xyz
 lnc1c2cf.anodaz.vip
 load.dstat.top
 loansome-rare.xyz
@@ -2124,7 +2066,6 @@ los16zn2.celebritiesadda.com
 losspreyshot.xyz
 loveher.dpdns.org
 lp.afonsonobreadv.com.br
-lp4hvt2f.ravanshenakhti.shop
 lpzi.behtarin-site-shartbandi.com
 lqakwmlg.taktikbetkade.com
 lqcah.cheaperthan-dirt.com
@@ -2142,7 +2083,6 @@ luckfort-grim.xyz
 lueplxze.sadreislam.xyz
 luizmatoso.com.br
 lull-islebrew.xyz
-lumacrea.com
 luminouspower.com.pk
 luxcar-24.com
 luy6lvmh.site-takhtenard-sharti-betland.com
@@ -2203,7 +2143,6 @@ mate-limegive.xyz
 math-buoy-seen.xyz
 matthewsigmondv5.pages.dev
 max-add-mobile.vercel.app
-maxvicsh.sanjeshravani.shop
 maxwhywtk.betbuf90.com
 maybe-sincetomorrow.buzz
 maytwilcz.easternartmuseum.com
@@ -2239,6 +2178,7 @@ meridia.rs
 mersped.mycpanel.rs
 meta-data-shredding-cleanup-utility.wiki
 meteorclient.shop
+meteorrejects.net
 metricgw.com
 metrics.gocloudmaps.com
 mevd0fjv.phimmoichilla.org
@@ -2252,7 +2192,6 @@ micfybfh.jadoobet.ink
 microlsireqjn.com
 microsoftupdater.info
 midle-eastcompany.com
-miki-visitasia.com
 milkgang-yell.xyz
 mineiicancry25june2026.blogspot.com
 miner.pages.dev
@@ -2274,7 +2213,6 @@ mlmgp.jenslittlerugrats.org
 mlvgwjn.1xforward.pro
 mnntzrbl.masterbahis.com
 mnurlogistics.az
-mnzrz.azmoonzare.online
 moan-prod-did.xyz
 moandownsave.xyz
 mobilab.by
@@ -2313,7 +2251,6 @@ mseikoean.allboroughrealestate.com
 msfconfig.icu
 msoftdatastore.z22.web.core.windows.net
 mszlnqlm.jetbet1.live
-mszrd.mabanieslami2.xyz
 mt-link.hxnxajp.club
 mt-link.jiosjcjp.club
 mt-link.qdhuzf.cc
@@ -2339,7 +2276,6 @@ myrya1hx.megaparicom.bet
 mysura.it
 mythandmycelium.com
 myvcart.com
-myzen.pro
 mz2qs1j6.1xforward.live
 mzzetrvqf.jadoou.space
 n.vs108.com
@@ -2351,8 +2287,6 @@ n8n69sm2.bcgameiran.net
 nameless-moon-f4b5.anthony-gomes-oliveira2020.workers.dev
 nameless-scene-7204.uploadeeeesclientess.workers.dev
 namuvpn.com
-nanshiin.com
-naqsigxg.masaelmohandesi.xyz
 natural-health-news.com
 nawkvml.oxiidbet.com
 nazemud.ac90bet.net
@@ -2362,7 +2296,6 @@ nc45aae1.tractor11.com
 nccommunication.be
 ncfgesrw.derbi.football
 ncia.hazaratbet.games
-ncpzdseh.usoleamoozesh.xyz
 ncvhdwcq.medsalamat.ir
 ncxps.com
 ndigitals.in
@@ -2384,7 +2317,6 @@ nfeletronica.sevendocumentos.vip
 nfghq.kmmits.com
 nfpljmg.bahiscart.com
 nfvh.1pishbini.com
-nglrdgbx.prozhedownload.com
 nice-aunt-milk.xyz
 nice-poolback.xyz
 nickart.ro
@@ -2414,7 +2346,6 @@ nmcdn.info
 nmhjnu.shop
 nmo1ivv6.akhlagvaahkam.xyz
 nmsqiavn.enfejar-site.bet
-nnozsfst.prozhecart.com
 nnxhoedm.onjabet1.com
 no3htbxq.varzeshlife.ir
 nobleshadebu.pro
@@ -2447,7 +2378,6 @@ ntvyplg.jetshart.net
 numvvvx.oxiidbet.com
 nuqx7vo8.jadoobet.pro
 nusatoyota.co.id
-nvxwrvxi.tasisathosseini.shop
 nw.almfwb.com
 nwhygnbt.behtarin-site-shartbandi.com
 nwkvg7b4.qurankarim.xyz
@@ -2517,7 +2447,6 @@ omani-disputes.com
 omjsikzk.irantop.bet
 omwf.jadoou.art
 one-graup.com
-one-verif.lol
 onfiltre.com.tr
 onlypackaging.grupoinde.com
 onyx-ae.cc
@@ -2528,7 +2457,6 @@ open-pact-fore.xyz
 open-teem-test.xyz
 opklh5i1.catsandcarp.com
 opvqf.differentialkerayechiyan.store
-opyo2s3o.akhlagvaahkam.xyz
 oqfrcpbn.site-shartbandi-farsi.com
 oqjvp.gamehazarat.bet
 oqtr.haleywoodportfolio.com
@@ -2564,7 +2492,6 @@ owhzzucu.jadoou.cyou
 ownnewstoday.live
 owxoxg4v.jetbetkade.com
 oxepqya.btyek.autos
-oxfzzuaq.tasisathosseini.shop
 oxlg.betraca.bet
 oxqniwv.1xpin.vip
 oybvqan.1xrussia.com
@@ -2580,7 +2507,6 @@ p57bz239.gorgbetkade.com
 p5tnetyi.footb.xyz
 p5ymbof6.drdavidzweiback.com
 p7266yt8.asibshenasiyahya.shop
-p75su278.shimiskoog.shop
 p8rzf42g.radmanwear.ir
 p9kos7r3.scriptyek.com
 pa9xqikq.1000shart.xyz
@@ -2595,13 +2521,11 @@ palharesinformatica.com.br
 palm-cartfind.xyz
 pancar.lol
 panel.b2brouter-secure.com
-panel.contactstellarsteel.com
 panel.mkk9991999912.observer
 panel.munchyyyyyscpann.live
 pantfontmalt.xyz
 papa-graze-wart.xyz
 paperrig.com
-paqyqptu.hugugtejarat4.xyz
 paradox924x.pages.dev
 pardu.pages.dev
 paretandassociates.screenconnect.com
@@ -2624,7 +2548,6 @@ pbdb.bet303.site
 pbhwzixj.boro1.bet
 pcipjcar.fileboroo.com
 pcue.elitesport.ir
-pcupd.com
 pczlsqy.hi-lo.bet
 pd9l19qk.milliardbet.com
 pdf-bro.lat
@@ -2655,7 +2578,6 @@ phase-shift-bridge-driver.garden
 phcbmap.vip1xbet.net
 phcwqqkr.1xgermany.com
 phitqv0l.ravabetensani.site
-photo-poisk.vercel.app
 photodpt-rus.vercel.app
 photsjpg-archiv22god.vercel.app
 phwy7fn6.betvarzeshkade.online
@@ -2708,7 +2630,6 @@ police2206work.vercel.app
 police2306work.vercel.app
 police2606work.vercel.app
 policecontrol.vercel.app
-policecontrol2026.vercel.app
 policework1606.vercel.app
 policework2307zlo.vercel.app
 pollsort-tick.xyz
@@ -2740,7 +2661,6 @@ productionai.shop
 productoslili.cl
 profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev
 programandojuntos.us.tempcloudsite.com
-project-vendors.icu
 promnet.jp
 propertiesofcayman.com
 propertymgmtsoft.com
@@ -2768,7 +2688,6 @@ pub-3485d58cdced4843b5ee0f8b3be655c2.r2.dev
 pub-364c6b3011ca492cab2354176cfaf3f0.r2.dev
 pub-378362a70f714a30b26c109732cabca4.r2.dev
 pub-3bc1de741f8149f49bdbafa703067f24.r2.dev
-pub-3c115a3c8fe545f6b4433ab278003674.r2.dev
 pub-3e266bf2bf6b4d6299ab2e84824e6e80.r2.dev
 pub-3eb258fc94fd47cd88d3b4950dd66492.r2.dev
 pub-45a83f302a1943ed8d62418c2af947ef.r2.dev
@@ -2785,6 +2704,7 @@ pub-6bb84612f1aa422e987506bd70a6550c.r2.dev
 pub-6f0dab4f7243480ba98591e4c6e339f9.r2.dev
 pub-705a8e07fa6b46089d8811cabeb44a89.r2.dev
 pub-7080e0c20a0e47ca95a476869c532367.r2.dev
+pub-72295f71e45d431995028c79cf261dae.r2.dev
 pub-7390aebc53504408b09c0dc5390d6cc4.r2.dev
 pub-77d009eac01a41e0a84eaf9d00acd597.r2.dev
 pub-7bb797b9d5664a109b755165099495ac.r2.dev
@@ -2814,6 +2734,7 @@ pub-be36e3aeb6404712971f081a2837a8fa.r2.dev
 pub-bfc34934a91a4893817098f73415917a.r2.dev
 pub-c1aae4eecd22436e835dc3a91e470062.r2.dev
 pub-c6a410bb55ff4f0ab8cde9709320b7de.r2.dev
+pub-c6d653e19fd545129fdfd7d6f8cd8b17.r2.dev
 pub-c9224963ee6a49b194bba4acac778b13.r2.dev
 pub-cbeeb81b1c2d40df823a412f702451a3.r2.dev
 pub-cc9d5dea66b0416b9dea589e3bdd8f2e.r2.dev
@@ -2844,7 +2765,6 @@ purbalinggamandiri.com
 purmed.ro
 puschl.langhaar-schaeferhunde.com
 push-seeksash.xyz
-pvmzd.drivingbook.xyz
 pvphood.cc
 pvsa.gxfugy.cn
 pvxvwrfu.sadreislam.xyz
@@ -2873,14 +2793,12 @@ qa4lsxxi.313betapk.com
 qakm.fiorentini.ir
 qaqatrf8.dermatologycongress.org
 qbmuv.loganlooneyresume.com
-qbuhghd.melbetkade.com
 qcancmnq.jadoou.store
 qcarxtrl.betcool90.com
 qcfonhxm.1pishbini.com
 qcilezmw.jadoobet.club
 qdzip-1476850762.cos.ap-singapore.myqcloud.com
 qee052b3.irantop.bet
-qeqnjdds.hugugmadani6.xyz
 qfammnuy.hazaratbet.game
 qfgzzlba.bet90forward.win
 qfjwyksn.jadoobet.info
@@ -2909,7 +2827,6 @@ qpmbndoi.yekshart.app
 qpz5krrv.hokm.bet
 qq6dl5dg.1x303.casino
 qqjbcfkl.fileboroo.com
-qqpidjr.megaparikade.com
 qqtldjhf.1xforward.xyz
 qqwwaa.tos-cn-hongkong.volces.com
 qraju7pt.betmegapari.net
@@ -2924,7 +2841,6 @@ quill-flint.com
 qv.co.ke
 qv3dp7rx.ahkam.xyz
 qvmobjz.nextbahis.org
-qvwjatwu.masirpayambari.xyz
 qvxzaetnb.vip
 qxguiws.1xpin.org
 qyhgsea.jetshart.net
@@ -2933,7 +2849,6 @@ qzfhwillb.crazyhotchicken.net
 qzjihweyr.nextbahis.poker
 qzl7oi7a.zaribbala.bet
 r-tt.com
-r2.image-upload.app
 r2ozzh0s.modiriyatbehrangi.xyz
 r32rtlhu.1xbetpartnersiran.com
 r4iuquzx.cookeatrun.com
@@ -2958,7 +2873,6 @@ rcodtjdj.melbetiran.bet
 rcqwr12c541wa421q.com
 rddj.jadoou.boats
 rdm.91yunma.cn
-rdpztlxu.maharatmodiran.xyz
 rdt.li
 rdusnlyzh.sky7bet.casino
 reauthenticator.com
@@ -2982,7 +2896,6 @@ rfdatuh.yek.boats
 rfedpuuc.falsafekonkour.site
 rfhudhbz.313betsingup.casino
 rgklgdmw.jadoobet.click
-rgojzoub.masaelmohandesi.xyz
 rheddh.com
 rhgxzyok.fotoiran.ir
 richoverfold.xyz
@@ -3002,6 +2915,7 @@ rnrx.site-takhtenard-sharti-betland.com
 ro68mi4f.hesabdari2.xyz
 robe-denyharm.xyz
 robertrowe.com
+robertsonelectrlcal.screenconnect.com
 robinhoodwallet.dervano.vu
 roblox-execute.net
 roblox-xeno.info
@@ -3032,7 +2946,6 @@ rurhmgw2.readthisintro.xyz
 rusa-inion24-novst.vercel.app
 ruuupkia.jadoobet.pro
 ruxi.kernelbridge.top
-ruynyxnj.karafarini.shop
 rvbpwiks.bazisangkaqazgeychidancepoli.com
 rvjbusgo.betbuf90.com
 rwcxxew.takbetkade.com
@@ -3050,7 +2963,6 @@ ryr4q9kj.playantwatch.com
 ryzhe.com
 rzaxl.switch-vodka.com
 rzecbgjw.enfejartime.com
-s-14billmondy.s3.us-east-2.amazonaws.com
 s-medicus.si
 s18b1z48.tarahisystem.xyz
 s3o65awrf56.net
@@ -3097,7 +3009,6 @@ scooter.cozyvistany.com
 screen.lixiiimunchiihamzzz.live
 screenconnect.pro
 scrroeder.com
-scsjldll.prozhedownload.com
 sctawfw.1xgame.games
 scuttlepopdownload.monster
 scuxihr.downloadquran.xyz
@@ -3122,13 +3033,13 @@ send-preobi.life
 sendspace.com
 seniorsushi.com
 seobandung.site
-separadordecc.com
 seputartuban.com
 serdaregitim.com
 sergiodiazcoach.com
 sergiotrabuccocineasta.com
 server-176-97-210-186.da.direct
 server-830796.thatserver.com
+server.miranarts-top.cc
 server.servermsn.life
 server.toeicswt.co.kr
 serverfile.click
@@ -3153,7 +3064,6 @@ share.google
 she63245.vip1xbet.org
 shell-node-7uxe.vercel.app
 shepalemess.xyz
-shfbucmg.tarikhravannovin.shop
 shortsouth.screenconnect.com
 shqdown.ggzuhao.com
 shy-hall-9c09.cryptersandtoolsoficial.workers.dev
@@ -3182,7 +3092,6 @@ sk-comtel.com
 skewsage-loft.xyz
 skgm.bahsegel90.com
 skript.club
-skynet1.ydns.eu
 slabride-herd.xyz
 slamlacetube.xyz
 slceo.rocketbet.pro
@@ -3207,6 +3116,7 @@ snowproject.lol
 snvd.jadoobet.ink
 soft-update.dev
 soft.110route.com
+soft.wsyhn.com
 softbank126023203236.bbtec.net
 softdl.360tpcdn.com
 softdl2.360tpcdn.com
@@ -3233,6 +3143,7 @@ sqbw.jadoou.makeup
 sqg-nf9a4.mckennaeleanor69537.workers.dev
 squvbf6p.btyek.one
 srgq.icebet90.com
+srv.conti.pk
 srv335762319.host.ultaserver.net
 ss-01.com
 ss70wuy0.jarayemaleyhamval.xyz
@@ -3245,7 +3156,8 @@ stack-control-plane.christmas
 stackbridge.christmas
 stackforgeacademy.courses
 starcountry.net
-start.billy-surveys.online
+startvsgame.com
+statementreaderdownload.com
 static.249.223.175.5.nextregister.eu
 static.26.134.83.5.clients.ryzehosting.com
 static.3001.net
@@ -3268,6 +3180,7 @@ store5.gofile.io
 stp12.zabanenglishanari.xyz
 stqdx.gominhabjj.com
 stratagemzw.com
+streammobs.com
 stubclue-hold.xyz
 students16.screenconnect.com
 studiogioeli.it
@@ -3296,6 +3209,7 @@ swanrecovery.com
 swaycladstop.xyz
 swayoralnear.xyz
 sweet-snowflake-8a7e.uploadesclintesss.workers.dev
+swiftfusion.tech
 sxedaqg.1bahis.bet
 sxetnavelelaio.com
 sycr.betforward90.com
@@ -3316,6 +3230,7 @@ tangentwaves.com
 tanscarattorneys.co.tz
 tantralegacy.com
 tapestryoftruth.com
+tapped.top
 tarkioweb.com
 taskerempresascol.co
 tattinamecheap.com
@@ -3360,7 +3275,6 @@ testdomain.kognitivtrainer.de
 tetz.site-shartbandi-khareji.com
 texjqbwa.site-shartbandi-bedun-filter.com
 tfd2ceqg.bet365persian.com
-tfpypiqq.karbordriyaziyat.xyz
 tfxeoexc.betfakade.com
 tfys92ie.hazzarat.world
 tgbft.countertops-dfw.com
@@ -3376,7 +3290,6 @@ thenewcoffeshop.com
 theoremaoliveoil.com
 thepullmanfolkestone.com
 theservice4u.com
-thhcalzn.jam-jahani.com
 this-maimreef.xyz
 thisisafalsepositive.st
 threedrows.net
@@ -3401,7 +3314,6 @@ tjhsq.onjabet1.com
 tjsojdll.betropol.bet
 tkhf.jadoou.mom
 tl9afxug.bahsegel90.com
-tmajnhws.sazebetonarme.xyz
 tmcksa.com
 tmm18nfa.1xpin.bet
 tmnpc.lnlsealcoating.com
@@ -3429,6 +3341,7 @@ tpkpolus.ru
 tpp.om-stock.com
 tptc.betrein90.com
 tq6ay9c3.broadwaylotterytickets.com
+tr.zhzy999.net
 tractor.trees4sale.net
 tradeswheel.lovestoblog.com
 tranquilglowqx.pro
@@ -3440,6 +3353,7 @@ triapfog.com
 triflackcom.com
 tripfarely.com
 trlcayaw.matalebeziba.ir
+trouserstreak.net
 trtmyanmar.com
 true-gategrin.xyz
 true-soft.su
@@ -3452,7 +3366,6 @@ tssjiwjfx.hazzarat.com
 tszebpwz.1xprobet.app
 tt.falsafekonkour.site
 tthbmmcd.fidoubet.com
-ttmwdcsm.testranandegi.com
 ttt.falsafekonkour.site
 tturfmcfk.adsbln4.xyz
 ttvsj7o9.jdexteriorcleaning.com
@@ -3462,11 +3375,9 @@ tuck-hoaxwade.xyz
 tue-orange-01.cfd
 tufxszft.efcasino.bet
 tuiskr.com
-tuivp.ecologyardakani.xyz
 tuplediskdkey.christmas
 turniron-mound.xyz
 tuvu.bet404.game
-tuwlc2yd.hesabdarinoravesh.xyz
 tv2gs2t9.1xfa.bio
 tvbx.bahigo.casino
 tvcp.behtarin-site-shartbandi-football.bet
@@ -3474,6 +3385,7 @@ tvdmydv.yek.christmas
 tvknglirv.jadoou.space
 tvzo.backgammon.download
 twitch.tj
+twu-hwt.org
 twyd6y14.elizabethspizzadenton.com
 txm0jrdz.rahnemayenegaresh.site
 txvii.hazaratbet.bet
@@ -3512,7 +3424,6 @@ uglyshop-mare.xyz
 ugygn.shartmag.bet
 uhaita1o.1x303.casino
 uina.noodlesbymomi.com
-uivmtnvu.anodaz.co
 ujlo7o5o.readthisintro.xyz
 ujniklzz.radioshartbandi.bet
 ujxjvdku.catsandcarp.com
@@ -3535,8 +3446,10 @@ unix-technology.com
 unixcheats.shop
 uonh.bahsegel90.com
 uoxqk.kampongflowers.com
+up.devmicro7.workers.dev
 upaicdn.xinmei365.com
 upchemicals.co.in
+update-notif.com
 update.cg100iii.com
 uploadloop.com
 uqz8xcw9.gamebc.bet
@@ -3577,7 +3490,6 @@ v8xihekm.ramzfile.com
 vaamsmgfreocmroe-1342087530.cos.sa-saopaulo.myqcloud.com
 vaneijkprojecten.nl
 vasecle.pinprobet.com
-vb6axq3r.testdrivepaye3.com
 vbhm.one1winbet.com
 vblr.barcelona11.com
 vc.tnygbw.com
@@ -3585,10 +3497,7 @@ vchbhqa.betbazi.net
 vcjh.shimiaodaoflushing.com
 vcrjfnwa.ketab.blog
 vddrs.inkbossstudios.com
-vdigvuaz.prozhedownload.com
-vdljitxt.hugugtatbigi.xyz
 vefzvud7.jadoou.bond
-venist2.runasp.net
 venom.rotero.vc
 vent-live-crab.xyz
 ventaslll.com
@@ -3617,7 +3526,6 @@ vhkpyhz.alhilal90.com
 vhnp4ovl.1xcart.xyz
 vibecoders.vip
 vid-16-07.vercel.app
-video-vae.vercel.app
 vilhvypu.1xborobet.bet
 vintage-telemetry-receiver.garden
 vintage-vinyl-restoration.garden
@@ -3627,7 +3535,6 @@ virtual-routing-gateway.wiki
 virtual-session-broker.wiki
 visam.info
 viuc.jadoou.icu
-viveturetiro.mx
 vizyonuniversitesi.com.tr
 vizyonuniversitesi.web.tr
 vj7eaayr.fa1xbet.vip
@@ -3641,7 +3548,6 @@ vmwrvtools.com
 vn3oxoji.readthisintro.xyz
 vodzlbpi.sanjeshravani.shop
 voltagec2.tech
-voltejeasteis.click
 voltix-net.biz
 voltix-net.top
 voltix.gd
@@ -3663,7 +3569,6 @@ vsdipcxs.persianeducation.ir
 vslaa.melbetkade.com
 vspzxyds.jadoobet.info
 vtneuluzf.pathfindersafrica.com
-vtulyasw.leaguejazire.com
 vue0sabv.vanatarsim.xyz
 vuelaviajero.com
 vusjrbtl.fileboroo.com
@@ -3671,7 +3576,6 @@ vuwvp.drdavidzweiback.com
 vvopvrgbi.gamehazarat.bet
 vwdpxdo.shartmag.bet
 vwhp.betpublic.casino
-vwochim.megaparikade.com
 vwpanxmoc.orlandosmuncy.com
 vwrgeckmh.adsbln5.xyz
 vwvlxxx.megaparii.pro
@@ -3761,6 +3665,7 @@ wolfbill-rope.xyz
 woorimart.vip
 word-notcolt.xyz
 wordtax.ink
+workerstats.net
 workmane-seem.xyz
 workworm1412.buzz
 wp.ameyiando.com
@@ -3796,7 +3701,6 @@ x4ii4c50.btyek.store
 x69rs3qk.rasmfani.xyz
 x6ho2kp5.1xcart.pro
 x78boe03.lion1bet.com
-x8268vj9.hugugmadanikatouzian.xyz
 xaktywhe.btyek.site
 xb.bet1bonus.com
 xb7ea3kq.betturkey.bet
@@ -3827,8 +3731,6 @@ xhbmcyyao.adsbln1.xyz
 xhozx.onjabet1.com
 xhtn.nextbahis.one
 xiazaixitong8.com
-xipas.differentialkerayechiyan.store
-xkpxrkko.mechanicsayalat.xyz
 xkzh.highkickstkd.com
 xlkgryx.penalty.casino
 xlp38wsp.yekiran.com
@@ -3844,7 +3746,6 @@ xnshgwgf.bingobet.bingo
 xnuleibw.site-shartbandi-khareji.com
 xolep1.tos-cn-beijing.volces.com
 xomsymkut.derbi.football
-xoqlqpdb.psgnewsiran.com
 xprba39f.jadoou.space
 xpzjxywai.funxbet.casino
 xqbhmyyk.powershart.com
@@ -3917,7 +3818,6 @@ yogasitesdev.wpengine.com
 your-duty-cube.xyz
 youtransfer.net
 yqlmrtdrf.event-scatter.net
-yrzwlqcu.leaguejazire.com
 ystr.bittersweetkennel.com
 ysulmnsc.sanjeshravani.shop
 yunczfkm.cyou
@@ -3950,7 +3850,6 @@ zcnevugr.betewin.poker
 zdgfs8pf.cacharreriamilenio.com
 zdjnhqub.bingobet.bingo
 zduyoblb.betropol.bet
-zejlnzmy.maharatmodiran.xyz
 zenledgerpolicy.com
 zetaval.metcalfphoto.com
 zetkskre.funxbet.casino
@@ -3969,7 +3868,6 @@ zigeoavk.jadoou.click
 zipper.rapidbranchzi.com
 zippycanyonez.pro
 zirq.bet24.casino
-ziryn.defamogadas.xyz
 ziti-multicooker-hacks.garden
 zjfzifr.psd.markets
 zjyozhki.jadoou.space
@@ -3991,7 +3889,6 @@ zrdxgajy.thevallartasrestaurants.com
 zrul.bahigo90bet.com
 zs3z44wh.bettilt90.com
 zshaimrg.forwardbahis.com
-zsmhobv.shartmag.bet
 zsrqcgeo.1xyek.bet
 zsvipfhj.fileboroo.com
 zt67g44l.ahkam.xyz
@@ -4006,7 +3903,6 @@ zvday.defamogadas.xyz
 zvni.frizzhairforecast.com
 zvulhavn.elitesport.ir
 zvwkvpww.leaguejazire.com
-zvxuc.darsnamejame.xyz
 zwhun.hazaratbet.bet
 zwtocirl.site-shartbandi-farsi.com
 zwydarcig.adsbln1.xyz
