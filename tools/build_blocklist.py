@@ -39,7 +39,23 @@ microsoft.com live.com office.com apple.com icloud.com dropbox.com
 facebook.com fbcdn.net instagram.com twitter.com x.com t.me telegram.org
 cloudflare.com discord.com discordapp.com paypal.com bit.ly tinyurl.com
 r2.dev b-cdn.net jsdelivr.net unpkg.com sites.google.com drive.google.com
+""".split()) | set("""
+raw.githubusercontent.com gist.githubusercontent.com media.githubusercontent.com
+objects.githubusercontent.com codeload.github.com gitlab.com bitbucket.org
+docs.google.com forms.gle share.google storage.googleapis.com
+firebasestorage.googleapis.com drive.usercontent.google.com googleusercontent.com
+cdn.discordapp.com media.discordapp.net cdn.jsdelivr.net
+mediafire.com sendspace.com mega.nz pastebin.com telegra.ph
+onedrive.live.com 1drv.ms ipfs.io dweb.link httpbin.org
 """.split())
+# ^ Second block, added 2026-09-24: shared-CONTENT hosts. The apex guard above
+# misses these because they are subdomains (raw.githubusercontent.com) or were
+# never listed (mediafire.com). URLhaus lists the host a payload was fetched
+# from, so one malicious file on docs.google.com or raw.githubusercontent.com
+# put the whole host on the list -- and Scan then called every Google Doc and
+# every raw GitHub link "dangerous" (live in app 1.6.1). Found by checking the
+# Scan corpus's CLEAN URLs against the published list. Tenant hosts
+# (evil.vercel.app, x.b-cdn.net) are still listed; only the shared host is not.
 
 VALID = re.compile(r'^[a-z0-9]([a-z0-9\-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9\-]*[a-z0-9])?)+$')
 

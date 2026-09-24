@@ -34,6 +34,11 @@ The app's loader (`ScanRepository`) skips blank lines and any line starting with
    apexes is dropped outright. On the seed run it caught 1,233 entries — malware
    hosted *on* `google.com`, `github.com`, `dropbox.com`, `drive.google.com`,
    `sites.google.com`. Without it the app blocklists Google and GitHub wholesale.
+   Since 2026-09-24 it also covers **shared-content hosts** — `docs.google.com`,
+   `raw.githubusercontent.com`, `cdn.discordapp.com`, `cdn.jsdelivr.net`,
+   `mediafire.com` and similar. URLhaus lists the host a payload was fetched
+   from, so one bad file there had put the whole host on the list and Scan
+   (app 1.6.1) called every Google Doc and raw GitHub link dangerous.
 
 Bare IPs are dropped; this is a domain list.
 
