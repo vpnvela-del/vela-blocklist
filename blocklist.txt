@@ -1,4 +1,4 @@
-# source abuse.ch URLhaus (plain-text URL feed + authenticated hostfile, malware only) | date 2026-09-24 | count 3587
+# source abuse.ch URLhaus (plain-text URL feed + authenticated hostfile, malware only) | date 2026-09-24 | count 3574
 0.232.205.92.host.secureserver.net
 00pq7d1j.1xboropartners.com
 01ejjpa2.behtarin-site-shartbandi.com
@@ -578,10 +578,8 @@ cdmke7zf.sky7bet.casino
 cdn-10049480.file.myqcloud.com
 cdn.anzho06.xyz
 cdn.defenders.workers.dev
-cdn.discordapp.com
 cdn.file6.goodid.com
 cdn.gomlab.com
-cdn.jsdelivr.net
 cdn.novoline.top
 cdn.pixelbin.io
 cdn.xiaoduoai.com
@@ -664,7 +662,6 @@ coalfact-tear.xyz
 coconutoficial.com.br
 code-beautify.com
 codeinspector.ddns.net
-codeload.github.com
 codepit-rized-denengine.garden
 cold5.gofile.io
 colibrik.com
@@ -897,7 +894,6 @@ dnswwt.club
 doc.e-statements.app
 doc.eagle-web-concept.fr
 docmntageant.com
-docs.google.com
 docs.thelobbyx.info
 docsfan-flora-ability-system.garden
 documentz.vercel.app
@@ -955,7 +951,6 @@ dreamwatchevent.com
 dreemix.com
 drgenov.com
 drij.bahsegel90.com
-drive.usercontent.google.com
 drkynxdcu.gem90bet.com
 dropboxb3.duckdns.org
 drsvt.nextbahis.poker
@@ -1179,7 +1174,6 @@ fin-code.lol
 final-aura.top
 fine-work-team.com
 fingerprint-veri.info
-firebasestorage.googleapis.com
 first-security-verden.de
 firstratezim.com
 fiscalizarais.xyz
@@ -1336,7 +1330,6 @@ ghyrtamr.plinko-1xbet.games
 gibi1zic.alobet.pro
 gifqd3gd.mahbet.poker
 gift-harbor.christmas
-gist.githubusercontent.com
 github-software.su
 give-lawncalm.xyz
 give-pore-upon.xyz
@@ -1501,7 +1494,6 @@ hseda.com
 hszy.nextbahis.blog
 ht326ul6.hazaratbet.bet
 htfll3q5.1x303.casino
-httpbin.org
 hullmall-cool.xyz
 huttprimax.partners
 huz6wkqi.mokatebatedari.xyz
@@ -1975,8 +1967,6 @@ meadow-processing-core.garden
 meadowprocessingcenter.garden
 meadowworkflowframework.garden
 media-aviation.run.place
-media.githubusercontent.com
-mediafire.com
 medicosantiagomarrero.com
 mediocasavolponi.com
 medises.co.kr
@@ -2613,7 +2603,6 @@ rank-idea-mass.xyz
 rant-heel-perk.xyz
 rarewingvm.blog
 ravstore.cl
-raw.githubusercontent.com
 rbnz.hairbyniki.com
 rbso1spv.hi-lo.bet
 rbthbhfo.backlinkbet.com
@@ -2772,7 +2761,6 @@ seismophonic.com
 sellnotlife.xyz
 semencepourlavie.org
 semprecardsecure.com
-sendspace.com
 seniorsushi.com
 seobandung.site
 seputartuban.com
@@ -2800,7 +2788,6 @@ sh6ze53a.bet90forward.win
 shadowbot-dih.pages.dev
 shaggulf-sold.xyz
 share.dovgertz.com
-share.google
 shell-node-7uxe.vercel.app
 shepalemess.xyz
 shipminttracking.net
