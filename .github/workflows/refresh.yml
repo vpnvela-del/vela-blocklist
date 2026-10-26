@@ -16,9 +16,12 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # Safety valve. The verified seed is 4,911 domains; anything under this is a
-  # broken fetch, not a quiet day at abuse.ch.
-  MIN_DOMAINS: '1000'
+  # Safety valve: anything under this is a broken fetch, not a quiet day at
+  # abuse.ch. Was 1000 while the public 90-day feed existed (4,911-domain seed,
+  # 1,883 on its last day). The v2 sources below gave 920 on 2026-10-26
+  # (recent.csv 591 + hostfile 427), so 500 leaves headroom for daily drift
+  # while still catching a feed that comes back empty or truncated.
+  MIN_DOMAINS: '500'
 
 jobs:
   refresh:
@@ -49,8 +52,8 @@ jobs:
         run: |
           set -uo pipefail
           if [ -z "${ABUSECH_AUTH_KEY:-}" ]; then
-            echo "::warning::ABUSECH_AUTH_KEY is not set; using the public plain-text URL feed alone."
-            exit 0
+            echo "::error::ABUSECH_AUTH_KEY is not set; every remaining URLhaus source needs it."
+            exit 1
           fi
           url="https://urlhaus-api.abuse.ch/v2/files/exports/${ABUSECH_AUTH_KEY}/hostfile.txt"
           code=$(curl -sS -L --max-time 120 --retry 3 --retry-delay 5 \
@@ -62,36 +65,40 @@ jobs:
           if [ "$code" != "200" ] || \
              ! python3 tools/build_blocklist.py --input feed_auth.txt \
                  --check-only --min-domains 1; then
-            echo "::warning::Authenticated hostfile fetch failed or returned no usable domains; continuing with the public feed alone."
+            echo "::warning::Authenticated hostfile fetch failed or returned no usable domains; continuing with recent.csv alone."
             rm -f feed_auth.txt
           fi
 
       # --------------------------------------------------------------------
-      # Source 2 (public, no auth): the plain-text URL list -- active malware
-      # URLs plus everything added in the last 90 days. This is the feed the
-      # verified 4,911-domain seed was built from and it carries the bulk of
-      # the coverage.
+      # Source 2 (authenticated): the URLhaus v2 recent.csv export -- every URL
+      # added in the last 30 days, ~214k rows, mostly bare-IP botnet URLs that
+      # the extractor drops. This replaced the public plain-text feed
+      # (https://urlhaus.abuse.ch/downloads/text/), which abuse.ch retired on
+      # 2026-10-22: every anonymous /downloads/ endpoint now returns
+      # 410 Gone with no forwarding address. The v2 whitelist is still exactly
+      # hostfile.txt recent.csv online.csv rpz.txt online.json recent.json
+      # (re-probed 2026-10-26); recent.csv is a superset of online.csv.
       # --------------------------------------------------------------------
-      - name: Fetch the public URLhaus plain-text URL feed
+      - name: Fetch the authenticated URLhaus recent.csv export
+        env:
+          ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}
         run: |
           set -euo pipefail
-          code=$(curl -sS -L --max-time 180 --retry 3 --retry-delay 5 \
-                   -o feed_public.txt -w '%{http_code}' \
-                   'https://urlhaus.abuse.ch/downloads/text/')
-          echo "HTTP $code, $(wc -c < feed_public.txt) bytes"
+          code=$(curl -sS -L --max-time 180 --retry 3 --retry-delay 5                    -o feed_recent.csv -w '%{http_code}'                    "https://urlhaus-api.abuse.ch/v2/files/exports/${ABUSECH_AUTH_KEY}/recent.csv")
+          echo "HTTP $code, $(wc -c < feed_recent.csv) bytes"
           if [ "$code" != "200" ]; then
-            echo "::error::Public feed returned HTTP $code"
+            echo "::error::recent.csv export returned HTTP $code"
             exit 1
           fi
 
       - name: Regenerate blocklist.txt
         run: |
           set -euo pipefail
-          inputs=(--input feed_public.txt)
-          label='abuse.ch URLhaus (plain-text URL feed, malware only)'
+          inputs=(--input feed_recent.csv)
+          label='abuse.ch URLhaus (v2 recent.csv export, malware only)'
           if [ -f feed_auth.txt ]; then
             inputs+=(--input feed_auth.txt)
-            label='abuse.ch URLhaus (plain-text URL feed + authenticated hostfile, malware only)'
+            label='abuse.ch URLhaus (v2 recent.csv export + hostfile, malware only)'
           fi
           # Hard safety valve: build_blocklist.py exits non-zero (failing the
           # run) on an HTML/error body or on fewer than MIN_DOMAINS domains, and
