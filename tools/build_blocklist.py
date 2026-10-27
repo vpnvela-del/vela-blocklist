@@ -19,6 +19,7 @@ line starting with `#`.
 """
 
 import argparse
+import csv
 import datetime
 import ipaddress
 import re
@@ -67,11 +68,22 @@ HOSTS_PREFIX = re.compile(r'^(?:0\.0\.0\.0|127\.0\.0\.1)\s+')
 # Markers that mean we were handed an error/landing page instead of a feed.
 HTML_MARKERS = ('<html', '<!doctype', '<head', '<body', '<script')
 
+# URLhaus v2 CSV exports (recent.csv / online.csv) quote every field:
+#   "id","dateadded","url","url_status",...
+# The URL is the third column. Plain-text and hosts-file lines never start
+# with a double quote, so this branch is inert on those feeds.
+CSV_URL_COLUMN = 2
+
 
 def host_of(raw):
     s = raw.strip()
     if not s or s.startswith('#'):
         return None
+    if s.startswith('"'):
+        row = next(csv.reader([s]), [])
+        if len(row) <= CSV_URL_COLUMN:
+            return None
+        s = row[CSV_URL_COLUMN].strip()
     s = HOSTS_PREFIX.sub('', s, count=1).strip()
     s = re.sub(r'^[a-zA-Z][a-zA-Z0-9+.\-]*://', '', s)   # scheme
     s = re.split(r'[/?#]', s, 1)[0]                       # path/query/fragment
