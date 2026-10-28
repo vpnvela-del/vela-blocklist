@@ -50,10 +50,15 @@ mediafire.com sendspace.com mega.nz pastebin.com telegra.ph
 onedrive.live.com 1drv.ms ipfs.io dweb.link httpbin.org
 dl.google.com snippet.host filebin.net catbox.moe files.catbox.moe
 gofile.io store1.gofile.io
+clicky.com nichepursuits.com
 """.split())
-# ^ Last two lines added 2026-10-28 while adding ThreatFox: dl.google.com is
+# ^ Last three lines added 2026-10-28 while adding ThreatFox: dl.google.com is
 # Google's official download host (Chrome, Android SDK) and was already on the
-# live list via URLhaus; the rest are shared file/paste hosts like mediafire.
+# live list via URLhaus; the rest of the first two lines are shared file/paste
+# hosts like mediafire. clicky.com (web analytics) and nichepursuits.com (a
+# blog) are legitimate sites ThreatFox lists because they were abused; Elie's
+# call was not to block them. pixellog.io, the third borderline hit, stays
+# blocked on purpose.
 # ^ Second block, added 2026-09-24: shared-CONTENT hosts. The apex guard above
 # misses these because they are subdomains (raw.githubusercontent.com) or were
 # never listed (mediafire.com). URLhaus lists the host a payload was fetched

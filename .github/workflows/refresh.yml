@@ -16,10 +16,16 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # Safety valve 1 -- absolute floor: anything under this is a broken fetch,
-  # not a quiet day at abuse.ch. URLhaus alone gave 920-954 in late Oct 2026,
-  # so even with every other source dead the list stays above it.
-  MIN_DOMAINS: '500'
+  # Safety valve 1 -- absolute floor, equal to the app's accept-floor
+  # (vela-android BlocklistParser.MIN_DOMAINS = 1000). Devices reject any list
+  # under 1000 and silently keep their old cache, so publishing one helps
+  # nobody: it happened 2026-10-27..28, when URLhaus-only lists of 946/954
+  # went out green and every device refused them. With the floors equal,
+  # published == accepted always holds, and a thin list fails this run loudly
+  # instead, leaving the previous good list live. Note URLhaus alone (~950)
+  # is now BELOW the floor: if ThreatFox dies, the run fails rather than
+  # publishing. Change this together with the app constant, never alone.
+  MIN_DOMAINS: '1000'
   # Safety valve 2 -- max shrink vs the last published list. Every source is
   # optional (one dead feed must not freeze the list again, as the URLhaus
   # 410 did 2026-10-22..27), so a source that dies quietly shows up as a
@@ -132,7 +138,7 @@ jobs:
           # The NEVER_BLOCK guard must have held.
           for d in google.com github.com dropbox.com drive.google.com sites.google.com \
                    docs.google.com raw.githubusercontent.com workers.dev vercel.app \
-                   dl.google.com snippet.host; do
+                   dl.google.com snippet.host clicky.com nichepursuits.com; do
             if grep -qx "$d" blocklist.txt; then
               echo "::error::$d is on the list -- the NEVER_BLOCK guard failed"
               exit 1
