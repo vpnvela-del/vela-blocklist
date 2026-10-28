@@ -37,7 +37,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
 
       # --------------------------------------------------------------------
       # Sources. All are abuse.ch v2 exports with the key in the URL PATH:
@@ -147,11 +147,19 @@ jobs:
           echo "NEVER_BLOCK guard: OK"
 
       - name: Upload the built list (for inspection)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: blocklist
           path: blocklist.txt
           retention-days: 7
+
+      # A branch dry run skips the publish step, so prove here that the push
+      # credentials checkout persisted still work (checkout v6+ keeps them in a
+      # file under $RUNNER_TEMP, not .git/config). --dry-run authenticates to
+      # the remote but creates nothing.
+      - name: Check push credentials (dry run)
+        if: github.ref != 'refs/heads/main'
+        run: git push --dry-run origin HEAD:refs/heads/ci-push-credential-check
 
       # Only main publishes. A dispatch on any other branch is a dry run.
       - name: Commit if materially changed
