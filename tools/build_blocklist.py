@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate blocklist.txt from an abuse.ch URLhaus feed.
+"""Regenerate blocklist.txt from abuse.ch feeds (URLhaus, ThreatFox).
 
 The normalisation rules here are a verbatim port of the extractor that built the
 verified 4,911-domain seed list (vela-android, Scan Phase 1.1). Two of them are
@@ -48,7 +48,12 @@ firebasestorage.googleapis.com drive.usercontent.google.com googleusercontent.co
 cdn.discordapp.com media.discordapp.net cdn.jsdelivr.net
 mediafire.com sendspace.com mega.nz pastebin.com telegra.ph
 onedrive.live.com 1drv.ms ipfs.io dweb.link httpbin.org
+dl.google.com snippet.host filebin.net catbox.moe files.catbox.moe
+gofile.io store1.gofile.io
 """.split())
+# ^ Last two lines added 2026-10-28 while adding ThreatFox: dl.google.com is
+# Google's official download host (Chrome, Android SDK) and was already on the
+# live list via URLhaus; the rest are shared file/paste hosts like mediafire.
 # ^ Second block, added 2026-09-24: shared-CONTENT hosts. The apex guard above
 # misses these because they are subdomains (raw.githubusercontent.com) or were
 # never listed (mediafire.com). URLhaus lists the host a payload was fetched
@@ -60,9 +65,9 @@ onedrive.live.com 1drv.ms ipfs.io dweb.link httpbin.org
 
 VALID = re.compile(r'^[a-z0-9]([a-z0-9\-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9\-]*[a-z0-9])?)+$')
 
-# Hosts-file lines look like "127.0.0.1\tevil.example". Only the URLhaus
-# hostfile variant produces these; plain-text URL lines contain no whitespace,
-# so this pre-step is inert on that feed.
+# Hosts-file lines look like "127.0.0.1\tevil.example". Only the hostfile
+# exports (URLhaus, ThreatFox) produce these; URL and CSV lines never start
+# with an IP plus whitespace, so this pre-step is inert on those feeds.
 HOSTS_PREFIX = re.compile(r'^(?:0\.0\.0\.0|127\.0\.0\.1)\s+')
 
 # Markers that mean we were handed an error/landing page instead of a feed.
@@ -162,6 +167,9 @@ def main():
     ap.add_argument('--output', help='blocklist.txt to (re)write')
     ap.add_argument('--source-label', default='abuse.ch URLhaus')
     ap.add_argument('--min-domains', type=int, default=1000)
+    ap.add_argument('--max-shrink-pct', type=int, default=0,
+                    help='refuse to write if the list shrinks by more than this '
+                         'percent vs the existing --output file (0 = off)')
     ap.add_argument('--date', help='override header date (testing)')
     ap.add_argument('--check-only', action='store_true',
                     help='validate the feed and report the count; write nothing')
@@ -201,9 +209,26 @@ def main():
     if args.check_only or not args.output:
         return 0
 
+    previous = existing_domains(args.output)
+
+    # --- Safety valve, part 3: never let one dead source gut the list. ------
+    # Sources are optional (the workflow skips any that fail), so a source
+    # that dies quietly shows up here as a sudden drop. Refuse it and keep the
+    # last good list; the failed run is the alarm.
+    if args.max_shrink_pct and previous:
+        floor = len(previous) * (100 - args.max_shrink_pct) // 100
+        print('previous  %d (shrink floor %d at -%d%%)'
+              % (len(previous), floor, args.max_shrink_pct))
+        if len(out) < floor:
+            print('FAIL: %d domains is a %d%% drop from the previous %d; '
+                  'keeping the previous list'
+                  % (len(out), 100 - len(out) * 100 // len(previous),
+                     len(previous)), file=sys.stderr)
+            return 3
+
     # Compare domain bodies only -- the header carries a date, so comparing
     # whole files would report a change every single day.
-    if existing_domains(args.output) == out:
+    if previous == out:
         print('UNCHANGED: domain set is identical, leaving the file alone')
         return 0
 
